@@ -1,0 +1,127 @@
+.subscribe-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 5%;
+  padding-bottom: 0px;
+  background: #fff;
+
+  .subscribe-content {
+    max-width: 50%;
+
+    .heading {
+      font-size: 40px;
+      color: #12406f;
+      font-weight: 700;
+      margin-bottom: 25px;
+
+      @media (max-width: 1420px) and (min-width: 1250px) {
+        font-size: 30px;
+      }
+
+      @media (max-width: 1250px) and (min-width: 1200px) {
+        font-size: 25px;
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 20px;
+      }
+    }
+
+    .desc {
+      font-size: 20px;
+      font-weight: 400;
+      color: #525252;
+      margin-bottom: 28px;
+      max-width: 600px;
+
+      @media (max-width: 1420px) and (min-width: 1250px) {
+        font-size: 18px;
+      }
+
+      @media (max-width: 1250px) and (min-width: 1200px) {
+        font-size: 16px;
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 14px;
+      }
+    }
+
+    .subscribe-form {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      input {
+        flex: 1;
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        font-size: 16px;
+        height: 62px;
+        box-sizing: border-box;
+        outline: none;
+      }
+
+      .subscribe-btn {
+        background-color: #12406f;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        border: none;
+        outline: none;
+        padding: 10px 35px;
+        height: 62px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        white-space: nowrap;
+
+        @media (max-width: 1400px) {
+          font-size: 16px;
+          padding: 10px 15px;
+        }
+
+        @media (max-width: 1024px) {
+          height: 44px;
+          border-radius: 8px;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+  .subscribe-image {
+    margin-bottom: -10px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      svg {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .subscribe-section {
+    flex-direction: column;
+    text-align: center;
+
+    .subscribe-content {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .subscribe-form {
+      flex-direction: column;
+
+      input,
+      button {
+        width: 100%;
+      }
+    }
+  }
+}

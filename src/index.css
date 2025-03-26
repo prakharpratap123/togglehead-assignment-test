@@ -1,0 +1,8 @@
+@import url("https://use.typekit.net/your-kit-id.css");
+
+body{
+  margin: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: "fs-albert", sans-serif;
+}

@@ -1,0 +1,89 @@
+#card {
+  min-width: 420px;
+  background: #12406f;
+  color: white;
+  padding: 30px 50px;
+  border-radius: 10px;
+  text-align: left;
+
+  @media (max-width: 576px) {
+   min-width: 75%;
+   padding: 20px;
+  }
+
+  .title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 27px;
+
+    @media (max-width: 1420px) and (min-width: 1250px) {
+        font-size: 22px;
+      }
+
+      @media (max-width: 1250px) and (min-width: 1200px) {
+        font-size: 18px;
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 16px;
+      }
+  }
+
+  .desc {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 35px;
+
+    @media (max-width: 1420px) and (min-width: 1250px) {
+        font-size: 20px;
+      }
+
+      @media (max-width: 1250px) and (min-width: 1200px) {
+        font-size: 18px;
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 16px;
+      }
+  }
+
+  .know-more {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    column-gap: 18px;
+
+    @media (max-width: 1420px) and (min-width: 1250px) {
+        font-size: 20px;
+      }
+
+      @media (max-width: 1250px) and (min-width: 1200px) {
+        font-size: 18px;
+      }
+
+      @media (max-width: 1200px) {
+        font-size: 16px;
+      }
+
+    .icon {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background-color: #fff;
+      color: #12406f;
+      display: grid;
+      place-content: center;
+
+      .MuiSvgIcon-root {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  }
+}

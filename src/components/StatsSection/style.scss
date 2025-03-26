@@ -1,0 +1,95 @@
+.stats-section {
+  background: #f6f6f6;
+  padding: 70px 5%;
+  display: flex;
+
+  .stats-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    @media (max-width: 576px) {
+      text-align: center;
+    }
+
+    .stat-card {
+      max-width: 320px;
+
+      .stat-title {
+        font-size: 24px;
+        font-weight: 400;
+        color: #12406f;
+        margin-bottom: 15px;
+
+        @media (max-width: 1420px) and (min-width: 1250px) {
+          font-size: 22px;
+        }
+
+        @media (max-width: 1250px) and (min-width: 1200px) {
+          font-size: 20px;
+        }
+
+        @media (max-width: 1200px) {
+          font-size: 18px;
+        }
+      }
+
+      .stat-value {
+        font-size: 80px;
+        font-weight: 700;
+        color: #12406f;
+
+        @media (max-width: 1420px) and (min-width: 1250px) {
+          font-size: 70px;
+        }
+
+        @media (max-width: 1250px) and (min-width: 1200px) {
+          font-size: 60px;
+        }
+
+        @media (max-width: 1200px) {
+          font-size: 50px;
+        }
+      }
+
+      .stat-subtitle {
+        font-size: 26px;
+        font-weight: 700;
+        color: #12406f;
+        margin-bottom: 15px;
+
+        @media (max-width: 1420px) and (min-width: 1250px) {
+          font-size: 22px;
+        }
+
+        @media (max-width: 1250px) and (min-width: 1200px) {
+          font-size: 20px;
+        }
+
+        @media (max-width: 1200px) {
+          font-size: 18px;
+        }
+      }
+
+      .stat-description {
+        font-size: 20px;
+        font-weight: 400;
+        color: #12406f;
+
+        @media (max-width: 1420px) and (min-width: 1250px) {
+          font-size: 18px;
+        }
+
+        @media (max-width: 1250px) and (min-width: 1200px) {
+          font-size: 16px;
+        }
+
+        @media (max-width: 1200px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
